@@ -1064,23 +1064,23 @@ main .talent-title-text h2{
 
     
 .bridge .prev-btn a{
-    top: 90px;
+    top: 80px;
     position: absolute;
     left: 20px;
 }    
 
 .bridge .prev-btn img{
-    width: 30px;
+    width: 50px;
 }    
 
 .bridge .next-btn a{
-    top: 90px;
+    top: 80px;
     position: absolute;
     right: 20px;
 }   
 
 .bridge .next-btn img{
-    width: 30px;
+    width: 50px;
 }    
 
 /* 채용안내 */
