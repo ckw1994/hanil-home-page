@@ -11,10 +11,16 @@ html{
 }
 
 /* header */
+
 header{
+    width: 100%;
+    height: 65px;
+}
+
+.header-wrap {
     position: relative;
     min-width: 1140px;
-    height: 65px;
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +28,8 @@ header{
     z-index: 2;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin: 0 auto;
+    
 }
 
 #H-logo {
@@ -70,7 +78,7 @@ header{
 
 #GNB .depth-2 {
     display: none;
-    height: 200px;
+    height: 250px;
     
 }
 
@@ -80,10 +88,9 @@ header{
 
 
 #GNB .depth-2 > li {
-    margin-top: 25px;
-    /* outline: 1px solid red; */
-
+    margin-top: 40px;
 }
+
 
 #GNB .depth-2 > li > a{
     font-size: 16px;
@@ -312,7 +319,7 @@ header{
 .search-box form input:first-of-type {
     background-color: transparent;
     border-style: none;
-    border-bottom: 1px solid gray ;
+    border-bottom: 1px solid #fff ;
     color: #fff;
 }
 
@@ -752,19 +759,28 @@ main {
 }
 
 /* footer */
+
 #footer {
     width: 100%;
     height: 80px;
+    
+}
+
+.footer-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 80%;
+    max-width: 1440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
 }
 
 #footer .f-logo {
   /* outline: 1px solid red; */
-  margin-left: 20px;
+  margin-right: 50px;
+    width: 10%;
 }
 
 #footer .f-info > ul > li{
@@ -783,7 +799,7 @@ main {
 }
 
 #footer .f-right-menu .sns-group{
-    margin-right: 450px;
+    
 }
 
 #footer .f-right-menu .sns-group > ul > li{
@@ -795,12 +811,14 @@ main {
 .f-right-menu .top-btn {
     position: fixed;
    right: 20px;
-   bottom: 115px;
-   background-color: #fbfbfb;
+   bottom: 135px;
    height: 42px;
 }
 
 
+.f-right-menu .top-btn img{
+    width: 65px;
+}
 
 /* 인재상 */
 
@@ -1007,13 +1025,14 @@ main .talent-title-text h2{
     flex: 1;
     text-align: left;
     background: #43C1AC;
+    cursor: pointer;
 }
 
 .bridge .next-tab {
     flex: 1;
     text-align: right;
     background: #61C9E8;
-
+    cursor: pointer;
 }    
 
 .bridge .bridge-text {
@@ -1155,6 +1174,7 @@ main .recruit-title-total-wrap{
     width: 15vw;
     overflow: hidden;
     cursor: pointer;
+    text-align: center;
 }    
 
 
@@ -1163,7 +1183,7 @@ main .recruit-title-total-wrap{
 }
 
 .recruit-guide-group .recruit-guide-wrap li  img{
-    width: 15vw;
+    width: 12vw;
     object-fit: cover;
 }    
 
