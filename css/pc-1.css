@@ -941,11 +941,7 @@ main .talent-title-text {
     width: 100vw;
     height: 25vh;
     text-align: center;
-    top: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin-top: 600px;
     position: relative;
 
 }
