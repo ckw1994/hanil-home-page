@@ -1086,6 +1086,7 @@ main .talent-title-text h2{
     position: relative;
     /* outline: 2px solid red; */
     margin-top: 50vh;
+    padding-left: 10vw;
 }
 
 .recruit-title-text .text-border-line .under-line {
