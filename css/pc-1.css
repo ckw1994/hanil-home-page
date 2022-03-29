@@ -832,7 +832,7 @@ main {
 
 #talent-main-up {
     margin: 0 auto;
-    width: 100vw;
+    width: 100%;
     height: 400px;
     position: absolute;
     /* overflow: hidden; */
@@ -866,7 +866,7 @@ main {
 
 #talent-main-up .bread-crumb .bread-crumb-info {    
     padding-top: 340px;
-    padding-left: 10vw;
+    padding-left: 15vw;
     /* outline: 1px solid red; */
 }    
 
@@ -903,20 +903,24 @@ main {
 
 main .talent-main-middle {
     position: relative;
-    width: 100vw;
+    width: 100%;
 }
 
 .talent-main-middle .sub-tab-container {
-    width: 80vw;
     position: relative;
-    top: 460px;
+    width: 80%;
+    top: 300px;
     margin: 0 auto;
     /* outline: 1px solid red; */
+}
+
+.talent-main-middle .sub-tab-container .sub-tab-menu{
+
 }
  
 .talent-main-middle .sub-tab-menu ul{
     display: flex;
-    height: 10vh;
+    height: 72px;
     
 }
 
@@ -938,13 +942,14 @@ main .talent-main-middle {
 }
 
 main .talent-title-text {
-    width: 100vw;
+    width: 100%;
     text-align: center;
-    margin-top: 600px;
+    padding-top: 400px;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 
@@ -970,17 +975,18 @@ main .talent-title-text h2{
 .talent-conti-container {
     /* outline: 2px solid red; */
     position: relative;
-    width: 100vw;
-    margin-top: 200px;
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 125px;
     overflow: hidden;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    margin-bottom: 25vh;
+    margin-bottom: 50px;
 }
 
 
 .talent-conti-container .talent-conti-wrap .talent-conti-group {
     width: 80vw;
+    height: 700px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -993,11 +999,14 @@ main .talent-title-text h2{
 
 .talent-conti-container .talent-conti-group li .talent-conti-img{
     object-fit: cover;
+    height: 400px;
     width: 100vw;
 }    
 
 .talent-conti-container .talent-conti-group li .talent-conti-img > img{
     width: 30%;
+    height: 400px;
+    object-fit: cover;
 }    
     
 .talent-conti-container .talent-conti-group .talent-conti-text{
@@ -1015,7 +1024,7 @@ main .talent-title-text h2{
 
 .bridge {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 200px;
     overflow: hidden;
     display: flex;
@@ -1026,12 +1035,14 @@ main .talent-title-text h2{
     flex: 1;
     text-align: left;
     background: #43C1AC;
+    cursor: pointer;
 }
 
 .bridge .next-tab {
     flex: 1;
     text-align: right;
     background: #61C9E8;
+    cursor: pointer;
 
 }    
 
@@ -1075,6 +1086,7 @@ main .talent-title-text h2{
 /* 채용안내 */
 
 
+
 .main-visual-recruit {
     background-image: url(../images/메인비쥬얼/채용안내-메인.jpg);
     background-size: cover;
@@ -1086,7 +1098,7 @@ main .talent-title-text h2{
 .recruit-title-text {
     position: relative;
     /* outline: 2px solid red; */
-    margin-top: 500px;
+    margin-top: 400px;
     padding-left: 10vw;
 }
 
@@ -1103,34 +1115,33 @@ main .talent-title-text h2{
 }    
 
 .recruit-title-text .text-border-line {
-    width: 100vw;
+    width: 100%;
     /* outline: 2px solid red; */
 }
 
 main .recruit-main-middle {
     position: relative;
-    width: 100vw;
+    width: 100%;
 }
 
 main .recruit-title-total-wrap{
-    width: 100vw;
+    width: 100%;
     /* outline: 2px solid red; */
     position: relative;
-    margin-right: 10vw;
+    /* margin-right: 10vw; */
     overflow: hidden;
 }
 
 .recruit-main-middle .sub-tab-container {
-    width: 100vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
     position: relative;
-    top: 45vh;
+    width: 80%;
+    top: 300px;
+    margin: 0 auto;
 }
  
 .recruit-main-middle .sub-tab-menu ul{
     display: flex;
-    height: 10vh;
+    height: 72px;
 }
 
 .recruit-main-middle .sub-tab-menu ul li{
@@ -1148,42 +1159,52 @@ main .recruit-title-total-wrap{
 }
 
 .recruit-guide-container .recruit-guide-group .recruit-guide-wrap {
-    padding-left: 10vw;
 }
 
 .recruit-guide-container {
-    width: 100vw;
+    width: 100%;
     position: relative;
     overflow: hidden;
-    
 }
 
 .recruit-guide-container .recruit-guide-group {
-    width: 80vw;
+    width: 80%;
     overflow: hidden;
+    /* display: flex; */
+    /* justify-content: space-between; */
     margin: 0 auto;
 }
 
 .recruit-guide-group .recruit-guide-wrap {
     display: flex;
     overflow: hidden;
+    width: 100%;
     justify-content: space-between;
-
+    align-items: center;
+    overflow: hidden;
 }
 
 .recruit-guide-group .recruit-guide-wrap li{
-    width: 100vw;
-    overflow: hidden;
+    width: 18%;
+    /* margin-right: 35px; */
     cursor: pointer;
+    /* display: flex; */
+    /* padding: 40px; */
+    /* overflow: hidden; */
 }    
 
 
 .recruit-guide-group .recruit-guide-wrap li .guide-tab-icon {
-    width: 15vw;
+    width: 100%;
+    padding: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* overflow: hidden; */
 }
 
 .recruit-guide-group .recruit-guide-wrap li  img{
-    width: 15vw;
+    width: 100%;
     object-fit: cover;
 }    
 
@@ -1203,14 +1224,16 @@ main .recruit-title-total-wrap{
 }    
 
 .recruit-notice {
-    width: 100vw;
+    width: 100%;
+    /* height: 1200px; */
     position: relative;
 }
 
 .recruit-notice .recruit-notice-container {
-    width: 100vw;
+    width: 100%;
+    height: 850px;
     background-image: url(../images/메인비쥬얼/채용안내-하단.jpg);
-    height: 120vh;
+    /* height: 120vh; */
     background-size: cover;
     background-repeat: no-repeat;
     padding: 9vw;
@@ -1221,25 +1244,25 @@ main .recruit-title-total-wrap{
 
 .recruit-notice .recruit-notice-container .recruit-btn {
     position: absolute;
-    left: 50vw;
-    top: 100vh;
+    left: 50%;
+    top: 80%;
     transform: translate(-50%, -50%);
 }
 
 .recruit-notice .recruit-notice-container .recruit-btn a {
     font-size: 36px;
-    width: 27vw;
-    height: 7vh;
+    /* width: 27vw; */
+    /* height: 7vh; */
     color: #fff;
     background: rgba(51, 51, 51, 0.5);
-    padding: 1.5vw 18vh;
+    padding: 10px 100px;
     border:5px solid #FFFFFF;
     border-radius: 50px;
 }    
 
 .recruit-notice-container .recruit.noticebox .noticebox-text{
     width: 40vw;
-    height: 60vh;
+    height: 70%;
     background: rgba(51, 51, 51, 0.5);
     float: left;
     color: #fff;
@@ -1256,4 +1279,3 @@ main .recruit-title-total-wrap{
     margin-bottom: 10px;
     list-style-type: disc;
 }
-
