@@ -32,13 +32,14 @@ header{
     margin-right: 20px;
 }
 
+
+
 /* gnb */
 #GNB.on{
     position: absolute;
     padding: 20px;
     width: 100%;
     top: 75px;    
-    left: 0;
     background-color: #fff;
     display: flex;
     justify-content: center;    
@@ -75,19 +76,17 @@ header{
     
 }
 
-..m-gnb-up-btn  img.on {
+.m-gnb-up-btn  img.on {
    
     transform: rotate(-180deg);
-   
-    transition: 0.2s;
+    transition: 1s;
 
 }
 
 .m-gnb-up-btn  img {
     display: block;
-    transform: rotate(0deg);
-    
 }
+
 
 
 #GNB .depth-1 > li .m-gnb-up-btn > p {
@@ -130,12 +129,58 @@ header{
 
 /* main */
 
+
+#main-head .bgimg{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    box-sizing: content-box;
+    background: #fff;
+}
+
+#main-head .bgimg .imgbg{
+    width: 100%;
+    height: 400px;
+    background: url(../images/imgbg1.jpg) 50% 50%;
+}
+
+#main-head .bgimg2{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    box-sizing: content-box;
+    background: #fff;
+}
+
+#main-head .bgimg2 .imgbg2{
+    width: 100%;
+    height: 400px;
+    background: url(../images/imgbg2.jpg) 50% 50%;
+
+}
+
+
 #main-visual{
     width: 100%;
     height: 460px;
     background-image: url(../images/Background.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.question h1{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.question h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 70px;
 }
 
 #main-title-group {
@@ -244,6 +289,24 @@ header{
 
 }
 
+.search1 .search-box{
+    position: relative;
+ }
+
+ .search-box input{
+    margin-left: 40px;
+    margin-top: 100px;
+    width:350px;
+    height: 55px;
+    border-radius: 30px;
+    border: 2px solid #949494;
+    outline:none;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size:20px;
+
+}
+
 #contents-02 .container .sub-text > h1 {
     font-weight: 500;
     font-size: 36px;
@@ -345,6 +408,84 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 60px;
+}
+
+.qna{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 100px;
+}
+.qna > li{
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+.qna > li:nth-child(n+2){ /* 아이템 구분 점선 */
+  border-top: 1px dashed #aaa;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.qna input {
+  display: none;
+}
+
+.qna label { /* 제목 - 클릭 영역 */
+  font-weight: bold;
+  color: #000;
+  margin: 20px 0 0;
+  cursor: pointer;
+  font-size: 22px;
+}
+.qna label::before { /* 제목 앞 화살표 */
+    content: "＋";
+    display: block;
+    color: #000;
+    margin-right: 8px;
+    float: right;
+}
+.qna input:checked + label::before { /* 내용 펼침 상태 제목 앞 화살표 */
+    content: "×"
+}
+
+.qna div { /* 내용 영역 - 기본 감춤 상태 */
+  display: none;
+  color: #666;
+  font-size: 0.9375em;
+  overflow: hidden;
+  padding: 2px 0 2px 15px;
+  box-sizing: border-box;
+  transition: max-height 0.4s;
+}
+.qna input:checked + label + div { /* 내용 영역 펼침 */
+  display: block;
+  font-size: 18px;
+  color: #4B81DB;
+}
+
+#qa {
+    text-align: center;
+    width: 230px;
+    height: 180px;
+    background-color: #fff;
+
+    background-image: url(../images/faq.jpg);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #000;
+
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+#qa > h2{
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+
+#report {
+    text-align: center;
 }
 
 /* Bridge */
