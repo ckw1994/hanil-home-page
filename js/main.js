@@ -5,10 +5,11 @@ $(function(){
     $("#GNB .depth-1 li").hover(
         function(){
             $(this).children().addClass('on');
+       
         },
         function(){
             $(this).children().removeClass('on');
-            $(this).off();
+          
         }
     )
 
@@ -21,26 +22,5 @@ $(function(){
     $(".site-map-close-btn").click(function(){
         $('.site-map').removeClass('on');
     });
-
-
-
-   
 });
 
-$(function(){
-   
-    // 모바일 토글 버튼
-    $('#mobile-toggle-btn').click(function(e){
-        e.preventDefault();
-        $('#GNB').toggleClass('on'); 
-    })
-
-    $('#GNB .m-gnb-up-btn').click(function(e){
-        e.preventDefault();
-        $(this)
-        .next()
-        .toggleClass('on');
-        $('.m-gnb-up-btn  img')   
-        .toggleClass('on');
-    })
-});
