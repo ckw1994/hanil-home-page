@@ -737,9 +737,7 @@ line-height: 26px;
 }
 
 #h-contents{
-    /* outline: 1px solid red; */
     width: 100%;
-    /* height: 10px; */
 }
 
 #H-section-01{
@@ -773,12 +771,14 @@ line-height: 26px;
     width: 98px;
     border-bottom: 8px solid var(--main-color);
     margin-top: 50px;
+    /* outline: 1px solid red; */
+
     
 }
 
 .H-section-02 {
     width: 100%;
-    min-width: 1500px;
+    /* min-width: 1500px; */
     height: 539px;
     /* outline: 1px solid red; */
     padding-top: 20px;
