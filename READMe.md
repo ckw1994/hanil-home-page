@@ -9,8 +9,8 @@
 2. 시안제작: PC, Mobile(반응형) 
     -figma프로그램을 이용하여 와이어프레임, 프로토타입 시안 제작
     -https://www.figma.com/file/Vnpxd3xwKwKuK43khAE6WD/4%ED%8C%80-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A6%AC%EB%89%B4%EC%96%BC-(%ED%95%9C%EC%9D%BC%EC%A0%9C%EC%95%BD)?node-id=0%3A1
-    -깃허브 홈페이지
-    -https://ckw1994.github.io/hanil-home-page/
+    - 깃허브 홈페이지
+    - https://ckw1994.github.io/hanil-home-page/
 
 3. 구현
 ### 03-23 ~ 25
