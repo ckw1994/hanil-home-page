@@ -72,9 +72,10 @@ header{
 #GNB .depth-1 > li > a:hover{
     color: var(--main-color);
 }
+
 #GNB .depth-2 {
     display: none;
-    height: 200px;
+    height: 250px;
     
 }
 
@@ -84,9 +85,7 @@ header{
 
 
 #GNB .depth-2 > li {
-    margin-top: 25px;
-    /* outline: 1px solid red; */
-
+    margin-top: 40px;
 }
 
 
@@ -255,13 +254,69 @@ main{
     width: 100%;
     height: 400px;
     background: url(../images/imgbg2.jpg) 50% 50%;
+
 }
 
+.w-btn-blue {
+    background-color: #6aafe6;
+    color: #d4dfe6;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    text-align: center;
+    padding: 100px;
+    background: #fff;
+    display: table-cell;
+}
 
+button {
+    margin: 20px;
+}
 
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
 
+.w-btn-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn-indigo {
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn-indigo-outline:hover {
+    color: #1e6b7b;
+    background: aliceblue;
+}
 
 .question h1{
     margin-top: 80px;
@@ -353,7 +408,7 @@ hr{
     border-top-width: 2px;
     border-top-color: #000;
 
-    margin-left: 200px;
+    margin-left: 750px;
     margin-bottom: 100px;
 }
 
@@ -441,7 +496,7 @@ hr{
 
 /* content */
 .search1 .search-box{
-   position:relative;
+   position: relative;
 }
 
 /* .search1 .search-box p {
@@ -452,7 +507,7 @@ hr{
     margin-left: 30px;
 } */
 .search-box input{
-    margin-left: 622px;
+    margin-left: 20px;
     margin-top: 100px;
     width:557px;
     height: 55px;
@@ -464,10 +519,13 @@ hr{
     font-size:20px;
 
 }
+
+
 input[type=search]::-ms-clear {
     display: none;
 } 
 .search1 .search-box .product-search {
+
     position:absolute;
     top:109px;
     right:342px;
@@ -476,9 +534,26 @@ input[type=search]::-ms-clear {
 
 
 /* 제품 */
+
+#test_btn1{ 
+    border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px; 
+     margin-right:-4px; } 
+
+ #btn_group button{
+    border: 1px solid blue;
+    background-color:  rgba(0,0,0,0);
+    color: blue; padding: 5px; }
+    
+#btn_group button:hover{
+     color:black; 
+     background-color: blue; }
+
+
 .pd p {
     margin-top: 80px;
-    margin-left: 75px;
+    margin-left: 0px;
+    text-align: left;
     margin-bottom: 50px;
 }
 
@@ -492,6 +567,7 @@ input[type=search]::-ms-clear {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+ 
 }
 .product .pd3{
     display: flex;
@@ -504,25 +580,30 @@ input[type=search]::-ms-clear {
 }
 .product p {
     margin-top: 20px;
+
 }
 
 .product1{
-    margin-right: 44px;
+    margin-right: 100px;
 }
 .product2 {
-    margin-right: 44px;
+    margin-right: 120px;
+}
+.product3 {
+    margin-top: 15px;
 }
 .product4 {
     margin-right: 44px;
 }
 .product5 {
-    margin-right: 44px;
+    margin-right: 70px;
 }
 .product7 {
-    margin-right: 44px;
+    margin-right: 40px;
 }
 .product8 {
-    margin-right: 44px;
+    margin-right: 90px;
+    margin-left: 10px;
 }
 
 .page_wrap {
@@ -569,7 +650,6 @@ input[type=search]::-ms-clear {
 
 
 /* footer */
-
 #footer {
     width: 100%;
     height: 80px;
