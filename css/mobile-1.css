@@ -1175,3 +1175,7 @@ main .recruit-title-total-wrap{
     margin-left:20px;
     margin-top: 50px;
 }
+
+#footer .mobile-only img {
+    width: 41px;
+}
