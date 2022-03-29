@@ -1114,7 +1114,6 @@ main .recruit-title-total-wrap{
     width: 100vw;
     /* outline: 2px solid red; */
     position: relative;
-    margin-left: 10vw;
     margin-right: 10vw;
     overflow: hidden;
 }
