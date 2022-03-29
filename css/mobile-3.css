@@ -74,7 +74,7 @@ header{
     
 }
 
-.m-gnb-up-btn  img.on {
+..m-gnb-up-btn  img.on {
    
     transform: rotate(-180deg);
    
