@@ -95,7 +95,7 @@ header{
 #GNB .depth-2 > li > a:hover{
     color: var(--main-color);
     border-bottom: 3px solid #0D0F87;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -460,6 +460,8 @@ line-height: 26px;
     align-items: center;
     background-color: var(--background-color);
     padding-left: 390px;
+    margin-bottom: 95px;
+
 }
 
 #contents-04 .contents-04-container {
@@ -583,7 +585,7 @@ line-height: 26px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-top: 70px; */
+    margin-top: 70px;
     margin-bottom: 100px;
 }
 
@@ -933,6 +935,9 @@ line-height: 26px;
    margin-bottom: 20px;
 }
 
+#Bridge{
+    margin-bottom: 100px;
+}
 
 
 

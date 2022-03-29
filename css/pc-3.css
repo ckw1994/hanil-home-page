@@ -91,7 +91,7 @@ header{
 #GNB .depth-2 > li > a:hover{
     color: var(--main-color);
     border-bottom: 3px solid #0D0F87;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
