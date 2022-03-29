@@ -8,10 +8,11 @@ $(function(){
         },
         function(){
             $(this).children().removeClass('on');
+            $(this).off();
         }
     )
 
-    // 사이트 맵
+     // 사이트 맵
     // 사이트 맵 켜기
     $("#site-map-btn").click(function(){
         $('.site-map').addClass('on');
@@ -21,18 +22,25 @@ $(function(){
         $('.site-map').removeClass('on');
     });
 
-    // 모바일 토글 버튼
-    $('#mobile-toggle-btn').click(function(){
-        $('#GNB').toggleClass('on');
-    })
 
-    $('#GNB .m-gnb-up-btn').click(function(){
-
-        $(this).next().toggleClass('on');
-        
-        $('.m-gnb-up-btn > img')
-        .toggleClass('on');
-    })
 
    
+});
+
+$(function(){
+   
+    // 모바일 토글 버튼
+    $('#mobile-toggle-btn').click(function(e){
+        e.preventDefault();
+        $('#GNB').toggleClass('on'); 
+    })
+
+    $('#GNB .m-gnb-up-btn').click(function(e){
+        e.preventDefault();
+        $(this)
+        .next()
+        .toggleClass('on');
+        $('.m-gnb-up-btn  img')   
+        .toggleClass('on');
+    })
 });
