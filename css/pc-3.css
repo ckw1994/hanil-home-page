@@ -66,10 +66,9 @@ header{
 #GNB .depth-1 > li > a:hover{
     color: var(--main-color);
 }
-
 #GNB .depth-2 {
     display: none;
-    height: 250px;
+    height: 200px;
     
 }
 
@@ -79,7 +78,9 @@ header{
 
 
 #GNB .depth-2 > li {
-    margin-top: 40px;
+    margin-top: 25px;
+    /* outline: 1px solid red; */
+
 }
 
 

@@ -70,7 +70,7 @@ header{
 
 #GNB .depth-2 {
     display: none;
-    height: 250px;
+    height: 200px;
     
 }
 
@@ -80,9 +80,10 @@ header{
 
 
 #GNB .depth-2 > li {
-    margin-top: 40px;
-}
+    margin-top: 25px;
+    /* outline: 1px solid red; */
 
+}
 
 #GNB .depth-2 > li > a{
     font-size: 16px;
