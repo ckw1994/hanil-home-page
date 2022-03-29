@@ -482,6 +482,7 @@ header{
 /* 컨텐츠 */
 #CEO-Greetings #contents {
     margin-bottom: 40px;
+  
 
 }
 #CEO-Greetings  #main-contetns{
@@ -491,16 +492,26 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* outline: 1px solid red; */
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 #CEO-Greetings  #main-contetns .container{
     text-align: center;
     margin-top: 100px;
+    outline: 1px solid red;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 #CEO-Greetings  #main-contetns .container .title-text{
     text-align: center;
     margin-bottom: 50px;
+    /* outline: 1px solid red; */
+
 }
 
 #CEO-Greetings  #main-contetns .container .title-text > h2 {
