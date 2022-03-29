@@ -943,7 +943,9 @@ main .talent-title-text {
     text-align: center;
     margin-top: 600px;
     position: relative;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
