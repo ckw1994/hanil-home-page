@@ -907,11 +907,10 @@ main .talent-main-middle {
 }
 
 .talent-main-middle .sub-tab-container {
-    width: 100vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    position: absolute;
-    top: 45vh;
+    width: 80vw;
+    position: relative;
+    top: 460px;
+    margin: 0 auto;
     /* outline: 1px solid red; */
 }
  
