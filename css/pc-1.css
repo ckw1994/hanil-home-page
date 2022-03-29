@@ -10,8 +10,6 @@ html{
     display: none;
 }
 
-/* header */
-
 header{
     width: 100%;
     height: 65px;
@@ -31,7 +29,6 @@ header{
     margin: 0 auto;
     
 }
-
 #H-logo {
     margin-left: 20px;
     padding-top: 5px;
@@ -78,7 +75,7 @@ header{
 
 #GNB .depth-2 {
     display: none;
-    height: 250px;
+    height: 200px;
     
 }
 
@@ -88,9 +85,10 @@ header{
 
 
 #GNB .depth-2 > li {
-    margin-top: 40px;
-}
+    margin-top: 25px;
+    /* outline: 1px solid red; */
 
+}
 
 #GNB .depth-2 > li > a{
     font-size: 16px;
@@ -319,7 +317,7 @@ header{
 .search-box form input:first-of-type {
     background-color: transparent;
     border-style: none;
-    border-bottom: 1px solid #fff ;
+    border-bottom: 1px solid gray ;
     color: #fff;
 }
 
@@ -820,6 +818,8 @@ main {
     width: 65px;
 }
 
+
+
 /* 인재상 */
 
 .talent-main .main-visual {
@@ -1025,14 +1025,13 @@ main .talent-title-text h2{
     flex: 1;
     text-align: left;
     background: #43C1AC;
-    cursor: pointer;
 }
 
 .bridge .next-tab {
     flex: 1;
     text-align: right;
     background: #61C9E8;
-    cursor: pointer;
+
 }    
 
 .bridge .bridge-text {
@@ -1174,7 +1173,6 @@ main .recruit-title-total-wrap{
     width: 15vw;
     overflow: hidden;
     cursor: pointer;
-    text-align: center;
 }    
 
 
@@ -1183,7 +1181,7 @@ main .recruit-title-total-wrap{
 }
 
 .recruit-guide-group .recruit-guide-wrap li  img{
-    width: 12vw;
+    width: 15vw;
     object-fit: cover;
 }    
 

@@ -10,18 +10,24 @@ html{
 }
 
 header{
+    width: 100%;
+    height: 65px;
+}
+
+.header-wrap {
     position: relative;
     min-width: 1140px;
-    height: 65px;
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* outline: 1px solid red; */
-    z-index: 4;
+    z-index: 2;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin: 0 auto;
+    
 }
-
 #H-logo {
     margin-left: 20px;
     padding-top: 5px;
@@ -563,28 +569,30 @@ input[type=search]::-ms-clear {
 
 
 /* footer */
+
 #footer {
-    margin-top: 70px;
     width: 100%;
     height: 80px;
+    
+}
+
+.footer-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 80%;
+    max-width: 1440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
 }
 
 #footer .f-logo {
   /* outline: 1px solid red; */
-  margin-left: 20px;
+  margin-right: 50px;
+    width: 10%;
 }
 
-
-#footer .f-info{
-    margin-right: 500px;
- }
-
- 
 #footer .f-info > ul > li{
     display: inline-block;
     margin-bottom: 15px;
@@ -601,22 +609,25 @@ input[type=search]::-ms-clear {
 }
 
 #footer .f-right-menu .sns-group{
-    margin-right: 355px;
+    
 }
 
 #footer .f-right-menu .sns-group > ul > li{
     display: inline-block;
     
-    margin-left:30px;
+    margin-left:20px;
 }
 
 .f-right-menu .top-btn {
     position: fixed;
    right: 20px;
-   bottom: 70px;
-   background-color: #fbfbfb;
+   bottom: 135px;
    height: 42px;
-   z-index: 999;
+}
+
+
+.f-right-menu .top-btn img{
+    width: 65px;
 }
 
 
