@@ -43,4 +43,5 @@
     -2단계 메뉴의 hover under-bar 위치 조정 함.
     -2단계 메뉴 목록 수직간격 조정 함.
     -모바일 GNB 버튼 화살표 위치가 수정 및 속도 조정 함.
-
+    -header & footer 고정폭 (css, js)수정
+    -top-btn 이미지 수정
