@@ -570,8 +570,8 @@ input[type=search]::-ms-clear {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #footer .f-logo {
@@ -579,6 +579,12 @@ input[type=search]::-ms-clear {
   margin-left: 20px;
 }
 
+
+#footer .f-info{
+    margin-right: 500px;
+ }
+
+ 
 #footer .f-info > ul > li{
     display: inline-block;
     margin-bottom: 15px;
@@ -595,21 +601,22 @@ input[type=search]::-ms-clear {
 }
 
 #footer .f-right-menu .sns-group{
-    margin-right: 450px;
+    margin-right: 355px;
 }
 
 #footer .f-right-menu .sns-group > ul > li{
     display: inline-block;
     
-    margin-left:20px;
+    margin-left:30px;
 }
 
 .f-right-menu .top-btn {
     position: fixed;
    right: 20px;
-   bottom: 115px;
+   bottom: 70px;
    background-color: #fbfbfb;
    height: 42px;
+   z-index: 999;
 }
 
 

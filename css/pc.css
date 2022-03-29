@@ -587,13 +587,17 @@ line-height: 26px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 70px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 #footer .f-logo {
   /* outline: 1px solid red; */
   margin-left: 20px;
+}
+
+#footer .f-info{
+   margin-right: 500px;
 }
 
 #footer .f-info > ul > li{
@@ -612,21 +616,22 @@ line-height: 26px;
 }
 
 #footer .f-right-menu .sns-group{
-    margin-right: 450px;
+    margin-right: 355px;
 }
 
 #footer .f-right-menu .sns-group > ul > li{
     display: inline-block;
     
-    margin-left:20px;
+    margin-left:30px;
 }
 
 .f-right-menu .top-btn {
     position: fixed;
    right: 20px;
-   bottom: 115px;
+   bottom: 100px;
    background-color: #fbfbfb;
    height: 42px;
+   z-index: 999;
 }
 
 
