@@ -993,8 +993,13 @@ main .talent-title-text h2{
 
 .talent-conti-container .talent-conti-group li .talent-conti-img{
     object-fit: cover;
+    width: 100vw;
 }    
 
+.talent-conti-container .talent-conti-group li .talent-conti-img > img{
+    width: 30%;
+}    
+    
 .talent-conti-container .talent-conti-group .talent-conti-text{
     text-align: center;
 }
