@@ -15,7 +15,7 @@ header{
     align-items: center;
     margin-bottom: 10px;
     margin-top: 10px;
-    z-index: 0;
+    z-index: 1;
 }
 
 #H-logo {
@@ -131,19 +131,7 @@ header{
 /* main */
 
 
-#main-head .bgimg{
-    width: 100%;
-    height: 400px;
-    position: relative;
-    box-sizing: content-box;
-    background: #fff;
-}
 
-#main-head .bgimg .imgbg{
-    width: 100%;
-    height: 400px;
-    background: url(../images/imgbg1.jpg) 50% 50%;
-}
 
 #main-head .bgimg2{
     width: 100%;
@@ -151,14 +139,13 @@ header{
     position: relative;
     box-sizing: content-box;
     background: #fff;
+    background: url(../images/imgbg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
 }
 
-#main-head .bgimg2 .imgbg2{
-    width: 100%;
-    height: 400px;
-    background: url(../images/imgbg2.jpg) 50% 50%;
-
-}
 .question h1{
     margin-top: 80px;
     margin-bottom: 10px;
@@ -179,10 +166,11 @@ header{
  }
 
  .search-box input{
-    margin-left: 40px;
-    margin-top: 100px;
-    width:350px;
-    height: 55px;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:250px;
+    height: 45px;
     border-radius: 30px;
     border: 2px solid #949494;
     outline:none;
@@ -205,31 +193,7 @@ header{
     width: 100%;
 }
 
-.Holder{
-    display: flex;
-    width: 100%;
-    height: 350px;
-    background-color: var(--Secondary-color-01);
-    justify-content: center;
-    align-items: center;
-}
 
-.Holder .Holder-text {
-    text-align: center;
-    color: #fff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.Holder .Holder-text > h1 {
-    font-weight: 500;
-    font-size: 64px;
-    margin-bottom: 20px;
-}
-
-.Holder .Holder-text > h3 {
-    font-weight: 500;
-    font-size: 24px;
-}
 
 /* contents */
 #contents-01{
@@ -242,6 +206,7 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+    outline: 1px solid red;
 }
 
 #contents-01 .container{
@@ -297,6 +262,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    outline: 1px solid red;
 }
 
 #contents-02 .container{
@@ -474,7 +440,9 @@ header{
     border-top-width: 2px;
     border-top-color: #000;
 
-    margin-left: 120px;
+    /* margin-left: 120px;
+    margin-right: 120px; */
+    margin-left: 25%;
     margin-bottom: 100px;
 }
 
@@ -485,6 +453,8 @@ header{
 
 #report {
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
