@@ -48,3 +48,5 @@
     -header & footer 고정폭 (css, js)수정
     -top-btn 이미지 수정
     -search-box에 있는 input태그 under-line 색상변경 (#fff)
+### 03-30
+    -pc-GNB 호버 기능을 모바일 GNB에서는 사용되지 않게 JS코드를 수정함.
