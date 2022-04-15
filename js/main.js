@@ -4,7 +4,7 @@ $(function () {
     
     $(window).resize(function () {
         const w = window.innerWidth;
-        console.log(w)
+        // console.log(w)
 
       if (w >= 768) {
         // GNB 호버
@@ -29,6 +29,6 @@ $(function () {
         $("#GNB .depth-1 li").off();
     } 
         
-    })
+    }).resize();
 });
 
