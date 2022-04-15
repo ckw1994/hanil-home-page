@@ -130,6 +130,9 @@ header{
 .depth-2 > li > a:hover {
     color: var(--main-color);
 }
+#web-contents{
+    overflow-x: hidden;
+}
 
 
 /* main */

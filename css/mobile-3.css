@@ -129,7 +129,12 @@ header{
 
 
 /* main */
-
+#main-head .bgimg .imgbg{
+    width: 100%;
+    height: 400px;
+    background: url(../images/imgbg1.jpg) 50% 50%;
+    /* outline: 1px solid red; */
+}
 
 
 
@@ -146,7 +151,121 @@ header{
     z-index: 0;
 }
 
+/* product */
+.pd {
+    margin-left: 20px;
+}
+
+.pd p {
+    margin-top: 80px;
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 50px;
+ }
+
+.product .pd1{
+    
+    display: block;
+    justify-content: center;
+}
+
+.product .pd2{
+    display: block;
+    justify-content: center;
+    margin-top: 50px;
+ 
+}
+.product .pd3{
+    display: block;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+.pd-hover img:hover{
+    border-radius: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+}
+.product p {
+    margin-top: 20px;
+
+}
+
+.product1{
+    /* margin-right: 20px; */
+    /* outline: 1px solid red; */
+
+}
+.product2 {
+    /* margin-right: 20px; */
+}
+.product3 {
+    /* margin-top: 15px; */
+    /* outline: 1px solid red; */
+}
+.product4 {
+    /* margin-right: 20px; */
+}
+.product5 {
+    /* margin-right: 20px; */
+}
+.product7 {
+    /* margin-right: 20px; */
+}
+.product8 {
+    /* margin-right: 20px; */
+    /* outline: 1px solid red; */
+
+}
+.product{
+    width: 100%;
+}
+
+.page_wrap {
+    /* outline: 1px solid red; */
+    margin-top: 100px;
+    margin-bottom: 146px;
+    font-size:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+ }
+.page_nation {
+	display:inline-block;
+}
+
+.page_nation a {
+	display:inline-block;
+	margin:0 3px;
+	/* float:left; */
+
+	width:28px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	
+	font-size:18px;
+	color:#707070;
+	text-decoration:none;
+}
+.page_nation .active{
+    color:#000;
+    font-weight: bold;
+}
+.page_nation .nnext {
+    font-size:20px;
+}
+
+.page_nation a:hover{
+	color:#fff;
+	border:1px solid #42454c;
+	background-color:#42454c;
+}
+
+/* faq */
+
 .question h1{
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 80px;
     margin-bottom: 10px;
     text-align: center;
@@ -161,12 +280,16 @@ header{
     margin-bottom: 70px;
 }
 
+.container{
+    text-align: center;
+}
+
 .search1 .search-box{
-    position: relative;
+    position: relative; 
+    text-align: center;
  }
 
  .search-box input{
-    margin-left: 25%;
     margin-top: 50px;
     margin-bottom: 50px;
     width:250px;
@@ -177,7 +300,6 @@ header{
     padding-top: 5px;
     padding-left: 30px;
     font-size:20px;
-
 }
 
 
@@ -187,194 +309,17 @@ header{
     background-image: url(../images/Background.jpg);
     background-position: center;
     background-size: cover;
+   /* outline: 1px solid red; */
 }
 
 #main-title-group {
     width: 100%;
+     /* outline: 1px solid red; */
 }
 
 
 
-/* contents */
-#contents-01{
-    width: 100%;
-    height: 600px;
-    background-image: url(../images/main-contents-01.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    outline: 1px solid red;
-}
 
-#contents-01 .container{
-    color: #fff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 150px;
-}
-
-#contents-01 .container .title-text{
-    margin-bottom: 50px;
-}
-
-
-#contents-01 .container .title-text > h2{
-    font-weight: 500;
-    font-size: 24px;
-}
-
-#contents-01 .container .title-text .title-under-bar{
-    width: 98px;
-    border-bottom: 8px solid var(--main-color);
-    margin-top: 50px;
-    margin-left: 40%;
-}
-
-
-#contents-01 .container .sub-text > h1 {
-    font-weight: 500;
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-
-#contents-01 .container .sub-text > h3 {
-    font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 30px
-}
-
-#contents-01 .container .sub-text > p {
-    font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 150px;
-    line-height: 20px;
-}
-
-#contents-02{
-    width: 100%;
-    height: 550px;
-    background-image: url(../images/main-contents-02.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: 1px solid red;
-}
-
-#contents-02 .container{
-    text-align: center;
-    color: #fff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 50px;
-
-}
-
-#contents-02 .container .sub-text > h1 {
-    font-weight: 500;
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-
-#contents-02 .container .sub-text > h3 {
-    font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-#contents-02 .container .sub-text > p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 50px;
-
-}
-
-#contents-03{
-    width: 100%;
-    height: 550px;
-    background-image: url(../images/main-contents-03.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-#contents-03 .container{
-
-    color: #fff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 50px;
-}
-
-#contents-03 .container .sub-text > h1 {
-    font-weight: 500;
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-
-#contents-03 .container .sub-text > h3 {
-    font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-#contents-03 .container .sub-text > p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 50px;
-}
-
-#contents-04 {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    background-color: var(--background-color);
-    text-align: center;
-}
-
-#contents-04 .contents-04-container .c-4-text{
-    margin-bottom: 123px;
-}
-
-#contents-04 .contents-04-container .c-4-text > p{
-    color: #333;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 30px;
-}
-
-#contents-04 .contents-04-container .end-title-text-group{
-    display: block;
-    text-align: center;
-}
-
-#contents-04 .contents-04-container .end-title-text-top-bar{ 
-    width: 98px;
-    border-bottom: 8px solid var(--main-color);
-    margin-bottom: 50px;
-     margin-left: 40%;
-}
-
-.end-title-text-top-bar > h2 {
-    font-weight: 500;
-    font-size: 24px;
-} 
-
-#contents-04 .m-contents-04-logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
 .qna{
     list-style: none;
     margin: 0;

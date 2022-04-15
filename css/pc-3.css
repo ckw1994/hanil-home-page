@@ -584,6 +584,8 @@ input[type=search]::-ms-clear {
 
 .product1{
     margin-right: 100px;
+    /* outline: 1px solid red; */
+
 }
 .product2 {
     margin-right: 120px;
