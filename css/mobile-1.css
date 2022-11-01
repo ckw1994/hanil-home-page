@@ -1142,8 +1142,6 @@ main .recruit-title-total-wrap{
     font-weight: 400;
     font-size: 12px;
     margin-top: 55px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #footer .f-info > ul > li{
@@ -1174,8 +1172,4 @@ main .recruit-title-total-wrap{
     display: inline-block;
     margin-left:20px;
     margin-top: 50px;
-}
-
-#footer .mobile-only img {
-    width: 41px;
 }
