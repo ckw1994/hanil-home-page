@@ -1,0 +1,254 @@
+@charset "UTF-8";
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  /* 모바일 패치 (아이패드 글자확대방지) */
+  html {
+    -webkit-text-size-adjust: none;
+  }
+  * {
+    box-sizing: border-box;
+    word-break: keep-all;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #container {
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 12px 44px 0 rgba(59, 74, 125, 0.12);
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    text-align: center;
+  }
+  #container .img-contain {
+    margin-bottom: 40px;
+  }
+  #container .img-contain img {
+    width: 100%;
+    border-style: none;
+  }
+  #container .inquiry {
+    padding-top: 0;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+  }
+  #container .inquiry .inq-p {
+    margin-bottom: 13px;
+  }
+  #container .inquiry .box-1,
+#container .inquiry .box-2,
+#container .inquiry .box-3,
+#container .inquiry .box-4 {
+    margin-bottom: 20px;
+  }
+  #container .inquiry .box-1 input,
+#container .inquiry .box-2 input,
+#container .inquiry .box-3 input,
+#container .inquiry .box-4 input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+    padding-left: 20px;
+    font-size: 10px;
+  }
+  #container .inquiry .box-5 .companyScale {
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #7D7D7D;
+  }
+  #container .inquiry .box-6 {
+    margin-bottom: 40px;
+  }
+  #container .inquiry .box-6 #inquiry-text {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border-style: none;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  #container .inquiry .boundary {
+    width: 100%;
+    border: 1px dashed #979797;
+    margin-bottom: 40px;
+  }
+  #container .inquiry .info-agree-box h3 {
+    margin-bottom: 10px;
+  }
+  #container .inquiry .info-agree-box .agree-check-box {
+    margin-bottom: 10px;
+  }
+  #container .inquiry .info-agree-box .agree-check-box .chk-s {
+    font-size: 13px;
+  }
+  #container .inquiry .info-agree-box .info-text ul {
+    margin-bottom: 50px;
+    padding-left: 0;
+  }
+  #container .inquiry .info-agree-box .info-text ul li {
+    text-align: left;
+    list-style: none;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(136, 136, 136, 0.5333333333);
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+  #container .inquiry .info-agree-box .inq-btn {
+    border: 1px solid red;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #eb4236;
+    cursor: pointer;
+  }
+  #container .inquiry .info-agree-box .inq-btn .inq-btn-s {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}
+@media (orientation: portrait) {
+  /* Portrait 모드일 때 적용할 CSS */
+  /* 모바일 패치 (아이패드 글자확대방지) */
+  html {
+    -webkit-text-size-adjust: none;
+  }
+  * {
+    box-sizing: border-box;
+    word-break: keep-all;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #container {
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 12px 44px 0 rgba(59, 74, 125, 0.12);
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    text-align: center;
+  }
+  #container .img-contain {
+    margin-bottom: 40px;
+  }
+  #container .img-contain img {
+    width: 100%;
+    border-style: none;
+  }
+  #container .inquiry {
+    padding-top: 0;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+  }
+  #container .inquiry .inq-p {
+    margin-bottom: 13px;
+  }
+  #container .inquiry .box-1,
+#container .inquiry .box-2,
+#container .inquiry .box-3,
+#container .inquiry .box-4 {
+    margin-bottom: 20px;
+  }
+  #container .inquiry .box-1 input,
+#container .inquiry .box-2 input,
+#container .inquiry .box-3 input,
+#container .inquiry .box-4 input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+    padding-left: 20px;
+    font-size: 10px;
+  }
+  #container .inquiry .box-5 .companyScale {
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #7D7D7D;
+  }
+  #container .inquiry .box-6 {
+    margin-bottom: 40px;
+  }
+  #container .inquiry .box-6 #inquiry-text {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border-style: none;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  #container .inquiry .boundary {
+    width: 100%;
+    border: 1px dashed #979797;
+    margin-bottom: 40px;
+  }
+  #container .inquiry .info-agree-box h3 {
+    margin-bottom: 10px;
+  }
+  #container .inquiry .info-agree-box .agree-check-box {
+    margin-bottom: 10px;
+  }
+  #container .inquiry .info-agree-box .agree-check-box .chk-s {
+    font-size: 13px;
+  }
+  #container .inquiry .info-agree-box .info-text ul {
+    margin-bottom: 50px;
+    padding-left: 0;
+  }
+  #container .inquiry .info-agree-box .info-text ul li {
+    text-align: left;
+    list-style: none;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(136, 136, 136, 0.5333333333);
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+  #container .inquiry .info-agree-box .inq-btn {
+    border: 1px solid red;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #eb4236;
+    cursor: pointer;
+  }
+  #container .inquiry .info-agree-box .inq-btn .inq-btn-s {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=tablet.css.map */
