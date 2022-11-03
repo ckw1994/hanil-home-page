@@ -120,7 +120,7 @@ header{
 }
 
 #Right-menu .Language-group > a{
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 20px;
     padding-top: 5px;
 }
@@ -770,8 +770,8 @@ main {
     justify-content: space-between;
     width: 80%;
     max-width: 1440px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 0 auto;
 }
 
@@ -809,7 +809,7 @@ main {
 .f-right-menu .top-btn {
     position: fixed;
    right: 20px;
-   bottom: 135px;
+   bottom: 85px;
    height: 42px;
 }
 

@@ -15,6 +15,11 @@ header{
     /* border-bottom: 1px solid red; */
 }
 
+header{
+    width: 100%;
+    height: 65px;
+}
+
 .header-wrap {
     position: relative;
     min-width: 1140px;
@@ -29,7 +34,6 @@ header{
     margin: 0 auto;
     
 }
-
 #H-logo {
     margin-left: 20px;
     padding-top: 5px;
@@ -41,7 +45,7 @@ header{
     position: absolute;
     /* min-width: 12.28%; */
     top: -5px;
-    right: 15%;
+    right: 20%;
     background-color: #fff;
     z-index: 5;
     
@@ -63,7 +67,6 @@ header{
 }
 #GNB .depth-1 > li {
     width: 85px;
-   
 }
 
 #GNB .depth-1 > li > a{
@@ -88,8 +91,9 @@ header{
 
 #GNB .depth-2 > li {
     margin-top: 25px;
-}
+    /* outline: 1px solid red; */
 
+}
 
 #GNB .depth-2 > li > a{
     font-size: 16px;
@@ -108,6 +112,7 @@ header{
 #Right-menu {
     display: flex;
     margin-right: 20px;
+    
 }
 
 #Right-menu .Language-group{
@@ -121,7 +126,7 @@ header{
 }
 
 #Right-menu .Language-group > a{
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 20px;
     padding-top: 5px;
 }
@@ -665,8 +670,8 @@ input[type=search]::-ms-clear {
     justify-content: space-between;
     width: 80%;
     max-width: 1440px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 0 auto;
 }
 
@@ -704,7 +709,7 @@ input[type=search]::-ms-clear {
 .f-right-menu .top-btn {
     position: fixed;
    right: 20px;
-   bottom: 135px;
+   bottom: 85px;
    height: 42px;
 }
 
