@@ -4,8 +4,10 @@
     display: none;
 }
 
-html {
+html,body {
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* header */
